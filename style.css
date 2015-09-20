@@ -1,0 +1,92 @@
+body{
+background-image:url("pics/background.jpg");
+}
+
+#header{
+width:100%;
+height:40px;
+font-size: 16px;
+color: white;
+font-family: Tahoma, Verdana;
+text-align: center;
+background-color: #666699;
+display:none;
+border-radius: 5px;
+padding-top:20px;
+font-weight: bold;
+opacity: 0.8;
+}
+.quote{
+margin-top: 50px;
+font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; 
+color: #000000; 
+background-color: #eee;
+font-size: 16px;
+border: 1px dashed #999999;
+padding-left: 15px;
+padding-right: 15px; 
+overflow:auto;
+padding-bottom: 20px;
+opacity: 0.8;
+}
+#window{
+width: 100%;
+height: 800px;
+}
+.mover{
+position: absolute;
+opacity: 0.4;
+filter:alpha(opacity=40);
+}
+.mover:hover{
+opacity:1.0;
+filter:alpha(opacity=100);
+}
+#regcount{
+margin-left: 13%;
+display: inline;
+position: relative;
+float: left;
+}
+#memory{
+position: relative;
+float: right;
+margin-right: 10%;
+border-bottom: 40px;
+margin-bottom: 20px;
+}
+.memory{
+border: 2px solid black;
+width: 100px;
+}
+#assembler{
+margin-left: 7%;
+position: relative;
+float: left;
+}
+
+.step{
+border: 1px dashed #999999;
+float: left;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-right: 15px;
+margin-left: 7%;
+display: inline;
+overflow: auto;
+opacity: 0.8;
+font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; 
+color: #000000; 
+background-color: #eee;
+overflow:auto;
+}
+
+.stepdiv{
+width:65%;
+margin-left:5%;
+padding-top: -40px;
+}
+
+.bar{
+width: 120px;
+}
